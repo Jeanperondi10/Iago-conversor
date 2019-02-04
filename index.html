@@ -8,11 +8,11 @@
 	<header>
 		<img class="logo" src="logo.png">
 	</header>
-	<input class="btn" onclick='responsiveVoice.speak(document.getElementById("texto").value,"Brazilian Portuguese Female");' type='button' value='🔊' />
+	<input class="btn" onclick='responsiveVoice.speak(document.getElementById("texto").value,"Brazilian Portuguese Female",{volume: 1});' type='button' value='🔊' />
 	<textarea type="text" class="txt" id="texto"></textarea>
 	<script src="responsiveVoice.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		window.onload=responsiveVoice.speak("Bem vindo ao iago. É um prazer ter você aqui, digite algo que eu vou falar!","Brazilian Portuguese Female");
+		window.onload=responsiveVoice.speak("Bem vindo ao iago. É um prazer ter você aqui, digite algo que eu vou falar!","Brazilian Portuguese Female",{volume: 1});
 	</script>
 </body>
 </html>
