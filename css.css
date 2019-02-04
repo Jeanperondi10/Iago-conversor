@@ -1,0 +1,57 @@
+body{
+	margin: 0px;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	background: darkblue;
+}
+header{
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	height: 5vw;
+	background: white;
+}
+.logo{
+	display: block;
+	height: 150%;
+	margin: 0px auto 0px auto; 
+}
+.txt{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 90%;
+	height: 4vw;
+	font-size: 3vw;
+	text-align: center;
+	z-index: 1;
+}
+.btn{
+	position: fixed;
+	display: block;
+	bottom: 0;
+	right: 0;
+	background: black;
+	z-index: 2;
+	height: 4.5vw;
+	width: 10%;
+}
+@media only screen and (max-width: 800px) {
+	header{
+		height: 17vw;
+	}
+	.logo{
+		height: 130%; 
+	}
+	.txt{
+		height: 15vw;
+		font-size: 12vw;
+	}
+	.btn{
+		height: 16vw;
+		width: 10%; 
+	}
+}
