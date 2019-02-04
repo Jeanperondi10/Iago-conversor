@@ -2,12 +2,11 @@
 <html>
 <head>
 	<title>IAGO-Texto p/ Voz</title>
-	<!--<script src="script/responsiveVoice.js" type="text/javascript"></script>-->
-	<link rel="stylesheet" type="text/css" href="style/css.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
 	<header>
-		<img class="logo" src="img/logo.png">
+		<img class="logo" src="logo.png">
 	</header>
 	<input class="btn" onclick='window.speechSynthesis.speak(new SpeechSynthesisUtterance(document.getElementById("texto").value));' type='button' value='🔊' />
 	<textarea type="text" class="txt" id="texto"></textarea>
